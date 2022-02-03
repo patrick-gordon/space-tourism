@@ -13,11 +13,9 @@ function App() {
     <div className='App'>
       <>
         <Routes>
-          <Route path='/'>
+          <Route path='/' element={<Layout />}>
             <Route index element={<HomePage />} />
-          </Route>
-          <Route path='/explore'>
-              <Route path='destination' element={<Destination />} />
+            <Route path='destination' element={<Destination />} />
             <Route path='crew' element={<Crew />} />
             <Route path='technology' element={<Technology />} />
           </Route>
