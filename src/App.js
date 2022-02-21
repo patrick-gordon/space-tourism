@@ -1,12 +1,11 @@
 import './App.css';
 
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
 import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
-import Navigation from './components/Navigation';
 
 function App() {
   return (
