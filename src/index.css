@@ -4,24 +4,25 @@
 
 @layer components {
   .tabs {
-    @apply p-4 text-center cursor-pointer relative bg-tabs text-sm text-white;
+    @apply p-4 text-center cursor-pointer relative  text-sm text-white;
   }
+
   .active-tabs {
     @apply bg-transparent border-b;
   }
   .active-tabs:before {
-    @apply absolute inset-0 content-center bg-transparent opacity-50 transform -translate-x-1/2 -translate-y-1/2;
+    @apply absolute inset-0 content-center transform -translate-x-1/2 -translate-y-1/2;
   }
 
   .content {
-    @apply bg-transparent hidden;
+    @apply hidden;
   }
 
   .active-content {
     @apply block;
   }
-}
 
-body {
-  font-family: 'Belle', sans-serif;
+  .nav-open {
+    @apply;
+  }
 }

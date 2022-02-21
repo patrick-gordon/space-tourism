@@ -58,7 +58,7 @@ export default function DestinationTabs() {
             </div>
           </div>
 
-          <div className=' mt-8'>
+          <div className=' mt-12 lg:text-left'>
             <div className=''>
               <button
                 onClick={() => toggleTab(1)}
@@ -96,7 +96,7 @@ export default function DestinationTabs() {
                 <h2 className=' text-white text-3xl md:text-tablet lg:text-4xl'>
                   Moon
                 </h2>
-                <p className='text-white text-default lg:text-lg divide-y-2 divide-gray md:w-458'>
+                <p className='text-white text-default lg:text-lg divide-y-2 divide-gray md:w-458 leading-6 md:leading-7 lg:left-8 mx-8 lg:mx-0 '>
                   See our planet as you’ve never seen it before. A perfect
                   relaxing trip away to help regain perspective and come back
                   refreshed. While you’re there, take in some history by
@@ -124,7 +124,7 @@ export default function DestinationTabs() {
                 <h2 className='text-white text-3xl md:text-tablet lg:text-4xl'>
                   Mars
                 </h2>
-                <p className='text-white text-default md:w-458'>
+                <p className='text-white text-default md:w-458 leading-6 md:leading-7 lg:left-8 mx-8 lg:mx-0'>
                   Don’t forget to pack your hiking boots. You’ll need them to
                   tackle Olympus Mons, the tallest planetary mountain in our
                   solar system. It’s two and a half times the size of Everest!
@@ -151,7 +151,7 @@ export default function DestinationTabs() {
                 <h2 className='text-white text-3xl md:text-tablet lg:text-4xl'>
                   Titan
                 </h2>
-                <p className='text-white text-default md:w-458'>
+                <p className='text-white text-default md:w-458 leading-6 md:leading-7 lg:left-8 mx-8 lg:mx-0  '>
                   The only moon known to have a dense atmosphere other than
                   Earth, Titan is a home away from home (just a few hundred
                   degrees colder!). As a bonus, you get striking views of the
@@ -179,7 +179,7 @@ export default function DestinationTabs() {
                 <h2 className='text-white text-3xl md:text-tablet lg:text-4xl'>
                   Europa
                 </h2>
-                <p className='text-white text-default md:w-458'>
+                <p className='text-white text-default md:w-458 leading-6 md:leading-7 lg:left-8 mx-8 lg:mx-0 '>
                   The smallest of the four Galilean moons orbiting Jupiter,
                   Europa is a winter lover’s dream. With an icy surface, it’s
                   perfect for a bit of ice skating, curling, hockey, or simple
